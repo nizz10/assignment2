@@ -1,0 +1,27 @@
+h2 {
+  color: #558abb;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 200%;
+}
+form {
+  font-size: 160%;
+}
+fieldset {
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  font-size: 90%;
+  border: 2px solid #0095dd;
+}
+input {
+  width: 100%;
+  border: 2px solid #0095dd;
+  border-radius: 5px;
+  font-size: 80%;
+}
+input[type=submit] {
+  border: 2px solid #c43957;
+  background-color: #c43957;
+  font-size: 100%;
+  color: white;
+
+}
