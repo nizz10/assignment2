@@ -54,7 +54,7 @@ function displayMessage(){
 
     if(i == inputs.length-3)
     {
-      document.body.innerHTML = 'Congratulations! You are uccessfully registered!';
+      document.body.innerHTML = 'Congratulations! You successfully registered!';
     }
   }
 }
