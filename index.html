@@ -3,11 +3,12 @@
   <head>
     <title>CS1520 Assignment2</title>
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   </head>
 
   <body>
     <h2>REGISTER WITH US</h2>
-    <form action="">
+    <form name="registerForm">
       <fieldset>
         Name:<br>
         <input type="text" name="name" value="Required"><br>
@@ -18,11 +19,12 @@
         Password:<br>
         <input type="password" name="password" value="Required"><br>
         Confirm password:<br>
-        <input type="password" name="password" value="Required"><br>
+        <input type="password" name="confirmpassword" value="Required"><br>
         Birthday:<br>
         <input type="date" name="birthday" value="Optional"><br>
-        <input type="submit" value="Register">
+        <input type="button" value="Register" onclick="displayMessage();">
       </fieldset>
     </form>
+    <script src="JS/style.js"></script>
   </body>
 </html>
